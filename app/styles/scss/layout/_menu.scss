@@ -1,0 +1,42 @@
+#menu {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    overflow: hidden;
+    height: 100%;
+    width: 200px;
+    background: #fff;
+    li {
+        display: flex;
+        justify-content: flex-end;
+        align-content: center;
+        height: 50px;
+        list-style: none;
+        position: relative;
+        border-top: 1px solid #d5d5d5;
+        a {
+            display: flex;
+            align-items: center;
+            color: #000;
+            font-weight: bold;
+            text-decoration: none;
+            list-style: none;
+            span {
+                text-transform: uppercase;
+                font-size: 12px;
+                font-weight: 600;
+            }
+            img {
+                height: 15px;
+                margin: 0 15px;
+            }
+        }
+    }
+    #menuPerfil {
+        height: 30%;
+        background-image: url("../images/perfil.jpg");
+        background-size: cover;
+        cursor: pointer;
+    }
+}

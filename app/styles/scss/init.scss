@@ -1,0 +1,12 @@
+//misc settings
+@import 'config/_settings';
+@import 'config/_mixins';
+//frameworks
+//global things
+@import 'general/_reset';
+@import 'layout/_main';
+@import 'layout/_menu';
+//pages
+@import 'pages/_contentPage';
+@import 'pages/_resume';
+@import 'pages/_map';
